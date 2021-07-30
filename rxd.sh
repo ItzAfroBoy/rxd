@@ -546,6 +546,7 @@ case $clean in
     sudo rm -r yay grub2-themes Kripton Ant
     sudo rm -r $SCRIPTDIR/walls
     sudo pacman -Qtdq | pacman -Rns -
+    yay --clean
     ;;
   "n" | "no")
     ;;
